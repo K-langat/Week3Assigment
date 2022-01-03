@@ -19,6 +19,14 @@ $(document).ready(function() {
     $(".development-hiden").toggle();
     });
   });
-  $(document).ready(function(){
-      $("h4").bold();
+  
+  $(document).ready(function() {
+    $("dev").click(function() {
+      $(".productmgmt-showing").toggle();
+      $(".productmgmt-hiden").toggle();
+    });
+    $("p").click(function(){
+    $(".productmgmt-showing").toggle();
+    $(".productmgmt-hiden").toggle();
+    });
   });
