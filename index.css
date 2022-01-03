@@ -39,3 +39,8 @@ h1{
 .productmgmt-hiden{
     display: none;
 }
+.Potfolio{
+    width: 350px;
+    float: left;
+    margin: 10px;
+  }
