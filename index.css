@@ -5,7 +5,7 @@ h1{
 }
 .page1{
     background-image: url(./Assets/welcomepg.jpg);
-    background-color: aqua;
+   
     height: 250px;
     width:auto;
     text-align: center;
@@ -15,4 +15,16 @@ h1{
 .about{
     text-align: center;
     margin-top: 12px;
+}
+.services{
+    background-image: url(./Assets/services.jpg);
+    background-color: aqua;
+    height: 250px;
+    width:auto;
+    text-align: center;
+    color: rgb(211, 248, 248);
+    font-size: medium; 
+}
+.whatwedo{
+    text-align: center; 
 }
