@@ -26,5 +26,10 @@ h1{
     font-size: medium; 
 }
 .whatwedo{
-    text-align: center; 
+    text-align: center;
+    margin-bottom: 30px; 
+    
 }
+.design-hiden {
+    display: none;
+  }
