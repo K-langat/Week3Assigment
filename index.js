@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    $("img").click(function() {
+    $("#icons").click(function() {
       $(".design-showing").toggle();
       $(".design-hiden").toggle();
     });
@@ -10,7 +10,7 @@ $(document).ready(function() {
     });
   });
   $(document).ready(function() {
-    $("dev").click(function() {
+    $("#dev1").click(function() {
       $(".development-showing").toggle();
       $(".development-hiden").toggle();
     });
@@ -21,7 +21,7 @@ $(document).ready(function() {
   });
   
   $(document).ready(function() {
-    $("dev").click(function() {
+    $("#prodt").click(function() {
       $(".productmgmt-showing").toggle();
       $(".productmgmt-hiden").toggle();
     });
